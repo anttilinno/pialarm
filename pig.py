@@ -6,7 +6,7 @@ import time
 pi = pigpio.pi()
 
 # Main settings
-ALARM_COUNT = 5 # light lamp after evennt no 50
+ALARM_COUNT = 50 # light lamp after event no 50
 GATE_INPUT_PIN = 13 # input current
 ALARM_PIN = 4 # show light after ALARM_COUNT
 STATUS_PIN = 26 # show green light, if program is running
